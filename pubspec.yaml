@@ -1,0 +1,23 @@
+name: storage_explorer
+description: "A Flutter package for exploring and visualizing local SQLite databases during development."
+version: 1.0.0
+issue_tracker: https://github.com/viniscript-mobile/storage-explorer/issues
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqlite3: ^2.7.5
+  sqlite3_flutter_libs: ^0.5.32
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
